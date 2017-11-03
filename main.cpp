@@ -10,7 +10,7 @@ void sort(int * array, unsigned int size)
 	for (unsigned int i = 0; (!sucsess) && i < (size-1); i++)
 	{
 		sucsess = true;
-		for (unsigned int j = 0; j < (size-1) - i; j++)
+		for (int j = 0; j < (size-1) - i; j++)
 		{
 			if (array[j] > array[j + 1])
 			{
