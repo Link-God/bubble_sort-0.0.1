@@ -81,3 +81,4 @@ int main()
 	}
 	else { cout << "size error";cin.get(); }
 	return 0;
+}
