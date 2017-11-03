@@ -58,7 +58,6 @@ bool size_s(unsigned int &size)
 		if (stream.eof()) { return true; }
 		else { return false; }
 	}
-
 }
 int main()
 {
@@ -80,8 +79,5 @@ int main()
 		}
 		delete[] array;
 	}
-	else { cout << "size error"; }
-	cin.get();
+	else { cout << "size error";cin.get(); }
 	return 0;
-}
-
